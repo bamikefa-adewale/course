@@ -35,7 +35,10 @@ export const NavBar = () => {
             </ul>
           </div>
 
-          <button className="hidden lg:block bg-[#00AAFF] py-2 px-4 rounded-lg text-lg font-semibold cursor-pointer text-white">
+          <button
+            onClick={handleLoginClick}
+            className="hidden lg:block bg-[#00AAFF] py-2 px-4 rounded-lg text-lg font-semibold cursor-pointer text-white"
+          >
             Login
           </button>
 
